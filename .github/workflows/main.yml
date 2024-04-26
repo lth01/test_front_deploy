@@ -2,6 +2,8 @@ name: Auto Deploy after push
 
 on:
   push:
+    paths:
+      - "front"
     branches:
       - main
 env:
